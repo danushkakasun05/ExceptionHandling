@@ -1,7 +1,7 @@
 package com.calculator;
 
 public class Calculator{
-    public Calculator(int[] array){
+    public void Sum(int[] array){
         int total =0;
         try {
             for (int i = 0; i < array.length; i++) {
